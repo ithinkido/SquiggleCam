@@ -29,7 +29,7 @@
                   <span class="label">
                     Width
                   </span>
-                <input type="range" min="200" max="500" v-model="settings.width">
+                <input type="range" min="200" max="2000" v-model="settings.width">
                 <div class="output">{{ settings.width }}</div>
               </div>
 
@@ -40,7 +40,7 @@
                   <span class="label">
                     Height
                   </span>
-                <input type="range" min="200" max="500" v-model="settings.height">
+                <input type="range" min="200" max="2000" v-model="settings.height">
                 <div class="output">{{ settings.height }}</div>
               </div>
             </div>
@@ -168,7 +168,7 @@
                   <span class="label">
                     Line Count
                   </span>
-                  <input type="range" min="10" max="200" v-model="settings.lineCount">
+                  <input type="range" min="10" max="1000" v-model="settings.lineCount">
                   <div class="output">{{ settings.lineCount }}</div>
                 </div>
                 <div class="slider">
